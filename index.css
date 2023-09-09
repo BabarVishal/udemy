@@ -10,9 +10,7 @@ body,html{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.fist{
-    
-}
+
 nav{
     width: 100%;
     height: 80px;
@@ -138,12 +136,16 @@ hr{
 .four{
     margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
+    
   
  
 }
 .four h1{
-    margin-left: 60px;
+   margin-left: 100px;
+    margin-top: -80px;
+    color: blue;
+    
+   
 }
 .four5{
    display: inline-flex;
@@ -166,7 +168,7 @@ hr{
 .five{
    display: flex;
    flex-wrap: wrap;
-    margin-top: 90px;
+   margin-top: 80px;
 
     /* background-color: rgb(217, 232, 246); */
 
@@ -261,7 +263,7 @@ hr{
     /* background-color: aqua; */
     margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
+   
     align-items: center;
     justify-content: space-evenly;
 }
@@ -328,7 +330,7 @@ width: 35%;
     /* background-color: aqua; */
     margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
+   
     align-items: center;
     justify-content: space-evenly;
 }
@@ -390,7 +392,7 @@ width: 35%;
     /* background-color: aqua; */
     margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
+ 
     align-items: center;
     justify-content: space-evenly;
 }
@@ -444,9 +446,9 @@ width: 35%;
 }
 
 .ten{
-    color: white;
+    color: black;
     height: 100px;
-    background-color: black;
+    background-color:rgb(247, 244, 239);
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -467,8 +469,8 @@ width: 35%;
 }
 
 .vish{
-  background-color: black;
-  color: white;
+    background-color:white;
+  color: black;
   height: 130px;
   justify-content: space-between;
   padding: 3px 20px;
@@ -517,7 +519,6 @@ align-items: center;
 justify-content: end;
 padding: 50px 30px;
 }
-
 
 
 @media only screen and (max-width:500px){
@@ -751,5 +752,3 @@ margin-left: -10px;
     
     
 }
-
-
